@@ -42204,24 +42204,67 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-btn-1 {
   background-image: none;
   font-style: italic;
+  font-size: 1.5rem;
   padding: 0;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 101px;
+  }
+
   .u-header .u-image-1 {
     width: 62px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
+    margin-top: -64px;
+    margin-right: -34px;
   }
 
   .u-header .u-text-1 {
-    margin-top: -28px;
+    margin-top: -27px;
+    margin-bottom: 40px;
   }
 }
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-top: -61px;
+    margin-right: 0;
+  }
 
+  .u-header .u-text-1 {
+    width: auto;
+    margin-top: -21px;
+    margin-right: 232px;
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-menu-1 {
+    margin-top: -52px;
+    margin-right: 27px;
+  }
 
+  .u-header .u-text-1 {
+    margin-right: 140px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    margin-top: 20px;
+    margin-left: -20px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-top: -50px;
+    margin-right: -24px;
+  }
+
+  .u-header .u-text-1 {
+    margin-right: 34px;
+  }
+}
  .u-footer {
   background-image: none;
 }
